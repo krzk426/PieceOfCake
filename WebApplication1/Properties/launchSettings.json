@@ -1,0 +1,31 @@
+﻿{
+  "ConnectionStrings": {
+    "MvcMovieContext": "Server=(localdb)\\mssqllocaldb;Database=MvcMovieContext-7dc5b790-765f-4381-988c-5167405bb107;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:30949",
+      "sslPort": 44345
+    }
+  },
+  "profiles": {
+    "WebApplication1": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7139;http://localhost:5139",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
